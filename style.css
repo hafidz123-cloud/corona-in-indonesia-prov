@@ -433,3 +433,10 @@ td{
 	}
 	
 }
+
+@media (min-height: 800px) and (max-width: 900px){
+	.atas{
+		top: 20%;
+		
+	}
+}
