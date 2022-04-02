@@ -87,7 +87,7 @@ td{
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 }
-@media (min-width: 0px) and (max-width: 299px){
+@media (min-width: 0px) and (max-width: 299.5px){
 	.judul h2{
 		font-size: smaller;
 		text-align: center;
@@ -141,7 +141,7 @@ td{
 		font-size: smaller;
 	}
 }
-@media (min-width: 300px) and (max-width: 359px){
+@media (min-width: 300px) and (max-width: 359.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -188,7 +188,7 @@ td{
 	}
 }
 
-@media (min-width: 360px) and (max-width: 389px){
+@media (min-width: 360px) and (max-width: 389.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -235,7 +235,7 @@ td{
 	}
 }
 
-@media (min-width: 390px) and (max-width: 410px){
+@media (min-width: 390px) and (max-width: 411.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -283,7 +283,7 @@ td{
 }
 
 
-@media (min-width: 412px) and (max-width: 767px){
+@media (min-width: 412px) and (max-width: 766.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -324,7 +324,7 @@ td{
 	}
 }
 
-@media (min-width: 767px) and (max-width: 819px){
+@media (min-width: 767px) and (max-width: 819.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -347,7 +347,7 @@ td{
 
 }
 
-@media (min-width: 820px) and (max-width: 911px){
+@media (min-width: 820px) and (max-width: 911.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -369,7 +369,7 @@ td{
 	}
 
 }
-@media (min-width: 912px) and (max-width: 1023px){
+@media (min-width: 912px) and (max-width: 1023.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -391,7 +391,7 @@ td{
 	}
 }
 
-@media (min-width: 1024px) and (max-width: 1270px){
+@media (min-width: 1024px) and (max-width: 1279.5px){
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
@@ -405,7 +405,7 @@ td{
 	}
 }
 
-@media (min-width: 1280px) and (max-width: 1300px) {
+@media (min-width: 1280px) and (max-width: 1199.5px) {
 	.atas{
 		font-variant-caps: all-small-caps; 
 		font-size: 18px;
