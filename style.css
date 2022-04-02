@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+td{
+	text-align: center;
+}
+
+#dead{
+	color: #C00707;
+	font-weight: bolder;
+}
+
+#sembuh{
+	color: #005C11;
+	font-weight: bolder;
+}
+.judul{
+    font-variant-caps: all-small-caps; 
+	font-size: 18px;
+    position: sticky;
+    background-color: #ff414d;
+    top: 0;
+}
+
+#positif{
+	color: #6D6803;
+	font-weight: bolder;
+}
+
+#dirawat{
+	color: #AB0FD7;
+	font-weight: bolder;
+}
+
+#lastupdate{
+	color: #000000;
+	font-weight: bolder;
+}
+
+#dead, #sembuh, #dirawat, #positif, #lastupdate{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.atas{
+	font-variant-caps: all-small-caps; 
+	font-size: 18px;
+    position: sticky;
+    background-color: #f56a79;
+    top: 17%;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+#tabel{
+	border-radius: 10px;
+}
+.pembungkus{
+
+	width: 80%;
+	background-color: #d9ecf2;
+	margin: auto;	
+	-webkit-box-shadow: -4px 15px 89px 46px rgba(0,0,0,1);
+	-moz-box-shadow: -4px 15px 89px 46px rgba(0,0,0,1);
+	box-shadow: -4px 15px 89px 46px rgba(0,0,0,1);
+	border-radius: 10px;
+}
+
+.utama{
+	background-color: #1aa6b7;
+	padding-top: 9%;
+	padding-bottom: 13%;
+	background: #F7F7F7 url(images/gambar.jpg) ;
+}
+
+.footer{
+	background-color: #1aa6b7;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
+}

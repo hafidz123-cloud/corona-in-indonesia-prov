@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PANDEMI COVID-19 / CORONA INDONESIA</title>
+  <script src="jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="icon" href="images/gambar.jpg">
+</head>
+<body>
+  <div class="utama">
+  <div class="pembungkus">  
+      <table id="tabel" border="4" width="100%">
+        <tr>
+            <td class="judul" colspan="6"><h2>Data Kasus CORONA Hari ini <br> dari setiap Provinsi</h2></td>
+        </tr>
+        <tr class="atas">
+          <td class="atas">No.</td>
+          <td class="atas">Provinsi</td>
+          <td class="atas">Kasus</td>
+          <td class="atas">Dirawat</td>
+          <td class="atas">Sembuh</td>
+          <td class="atas">Meninggal</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    <p>5190411025 Muhammad Irgi Hafidz <a href="http://www.uty.ac.id/">@UTY</a></p>
+  </div>
+  <script>
+    // melakukan fetching data
+    $.ajax({
+      url: "https://apicovid19indonesia-v2.vercel.app/api/indonesia/provinsi",
+      success: function(data) {
+      console.log( [data[0]]);
+        for(let i = 1; i <= data.length; i++){
+          let baris = document.createElement("tr")
+            baris.innerHTML = `
+            <td id="lastupdate">${i}</td>
+            <td id="lastupdate">${data[i].provinsi}</td>
+            <td id="positif">${data[i].kasus}</td>
+            <td id="dirawat">${data[i].dirawat}</td>
+            <td id="sembuh">${data[i].sembuh}</td> 
+            <td id="dead">${data[i].meninggal}</td>
+
+          `
+          $("#tabel").append(baris)
+        }
+      }
+    })
+  </script>
+</body>
+</html>
